@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main(){
+	
+	int kenar,alan,cevre;
+	
+	printf("Bir Kenar Giriniz: ");
+	scanf("%d",&kenar);
+	
+	alan=kenar*kenar;
+	cevre=kenar*4;
+	
+	printf("Karenin Alani: %d\n",alan);;
+	printf("Karenin Cevresi: %d",cevre);
+	
+}
